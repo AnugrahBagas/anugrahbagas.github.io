@@ -1,0 +1,81 @@
+#project {
+  background-color: rgb(221, 255, 255);
+}
+.jumbotron {
+  padding-top: 8rem;
+  background-color: rgb(221, 255, 255);
+}
+#footer {
+  background-color: rgb(221, 255, 255);
+}
+section {
+  padding-top: 7rem;
+}
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+}
+#mainNav .navbar-brand {
+  color: #fff;
+}
+#mainNav .navbar-nav {
+  margin-top: 1rem;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  color: #fff;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #1abc9c;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:active,
+#mainNav .navbar-nav li.nav-item a.nav-link:focus {
+  color: #fff;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  color: #1abc9c;
+}
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.8rem;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  width: 450px;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #d2d2dc;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+  box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
+}
+
+.card .card-body {
+  padding: 1rem 1rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+p {
+  font-size: 14px;
+}
+
+.cross {
+  padding: 10px;
+  color: #4caf50;
+  cursor: pointer;
+}
+.img-fluid {
+  width: 300;
+  height: 200;
+}
